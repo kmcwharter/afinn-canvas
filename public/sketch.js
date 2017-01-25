@@ -23,7 +23,7 @@ function preload() {
 function setup() {
   createCanvas(720, 500);
   background(255);
-  socket = io.connect('http://localhost:3000');
+  socket = io.connect('http://kmcwharter.github.io');
   socket.on('type', draw);
 }
 
