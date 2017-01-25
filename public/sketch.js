@@ -1,7 +1,6 @@
 var afinn;
 var socket;
-var Player2;
-var Player1;
+
 
 var letter;
 var typing = '';
