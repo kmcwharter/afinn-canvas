@@ -1,7 +1,7 @@
 var express = require('express');
 
 var app = express();
-var server = app.listen(3000);
+var server = app.listen('http://kmcwharter.github.io');
 
 app.use(express.static('public'));
 
