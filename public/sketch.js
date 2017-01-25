@@ -73,7 +73,7 @@ function keyReleased() {
       k: totalScore
     }
 
-    Player2 = socket.emit('type', data);
+    socket.emit('type', data);
 }
 
 function keyTyped() {
